@@ -1,0 +1,36 @@
+@use "variables" as *;
+
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin header-style {
+  font-family: "Kaftan-Trial";
+  letter-spacing: 5px;
+}
+
+@mixin header-img {
+  width: 8rem;
+  height: auto;
+}
+
+@mixin centeredColumnSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+@mixin submitButton {
+  font-family: Helvetica, sans-serif;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  width: 4rem;
+  height: auto;
+  cursor: pointer;
+  color: $priorFontColor;
+  font-size: 15px;
+}

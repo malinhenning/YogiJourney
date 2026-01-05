@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Yogi Journey</title>
+  </head>
+  <body>
+    <header class="header">
+      <h2>Welcome to</h2>
+      <h1>Yogi Journey</h1>
+      <h2>Your own space for stillness</h2>
+
+      <nav>
+        <a href="#">Yoga</a>
+        <a href="journalPage.html">Journaling</a>
+        <a href="#">Meditation</a>
+        <a href="#">Community</a>
+      </nav>
+    </header>
+    <main>
+      <section class="journal-section">
+        <img
+          class="header-img"
+          src="/Passion-Projects/YogiJourney/assets/Yogi-Journey-images/v226-ning-48-religion-a-job101.jpg"
+          alt=""
+        />
+        <h2>A moment for yourself</h2>
+        <section class="input-section">
+          <p id="current-date"></p>
+          <input type="text" id="journal-title" placeholder="Title" />
+          <textarea
+            id="journal-content"
+            rows="10"
+            placeholder="What are you thinking about?"
+          ></textarea>
+          <button id="saveJournalBtn">Save</button>
+        </section>
+        <section class="postsContainer" id="posts"></section>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+/*! tailwindcss v4.1.14 | MIT License | https://tailwindcss.com */
+.h-auto {
+  height: auto;
+}
+.w-full {
+  width: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Kaftan-Trial";
+  src: url(/Passion-Projects/YogiJourney/assets/kaftan-trial.otf);
+}
+@font-face {
+  font-family: "Arsenica-Trial";
+  src: url(/Passion-Projects/YogiJourney/assets/ArsenicaTrial-Regular.ttf);
+}
+body {
+  background-color: #aac0af;
+}
+h1 {
+  font-size: 70px;
+  color: #453640;
+  font-family: "Kaftan-Trial";
+  letter-spacing: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  color: #5b5941;
+  font-family: "Kaftan-Trial";
+  letter-spacing: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+header {
+  font-family: "Arsenica-Trial";
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1rem;
+}
